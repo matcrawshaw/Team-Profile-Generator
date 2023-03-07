@@ -30,6 +30,14 @@ const getEmail = {
         type: 'input', 
         message: 'What is their Email?',
         name: 'email',
+        validate: response => {
+            const ok = response.match(
+                /\S+@\S+\.\S+/ );
+              if (ok) { return true;}
+        return"enter a valid email address.";
+            }
+
+        
             };
  const getOfficeNum = {
         type: 'input', 
