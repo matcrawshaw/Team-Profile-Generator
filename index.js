@@ -110,7 +110,10 @@ newManager();
 
 
 const generateTeamPage = (currentTeam) => {
-    fs.writeFile("team.html", render(currentTeam), (error) => error ? console.error(error) : console.log('Success!'));
+    if (!fs.existsSync(OUTPUT_DIR)) {
+        fs.mkdirSync(OUTPUT_DIR)
+    }
+    fs.writeFile(outputPath, render(currentTeam), (error) => error ? console.error(error) : console.log('Success!'));
 }
 //  
 
