@@ -2,7 +2,7 @@
 
 📖 Description
 
-This is a command line application to generate a HTML page that displays basic Team information. 
+This is a command line application to generate a HTML page that displays basic team information. 
 
 ![terminal screenshot](https://user-images.githubusercontent.com/119896882/224826459-13dda954-d20a-4747-8b9b-1ca658da1741.PNG)
 ![html screenshot](https://user-images.githubusercontent.com/119896882/224826158-637a3f54-7e92-4e92-b821-9185fcf05ff6.PNG)
