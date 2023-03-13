@@ -1,0 +1,14 @@
+.team-heading {
+background: rgb(0,36,32);
+background: linear-gradient(90deg, rgba(0,36,32,1) 0%, rgba(54,171,150,1) 53%, rgba(90,170,115,1) 94%);
+}
+
+.employee-card {
+margin: 20px;
+width: 30rem;
+box-shadow: 5px 5px 5px lightblue;
+}
+
+.card-header {
+background: rgb(108, 180, 171)
+}
